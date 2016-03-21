@@ -6,3 +6,55 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+  width: 100%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-body {
+  position: absolute;
+  overflow: hidden;
+  transform: translateX(-50%);
+  width: 50%;
+  left: 40%;
+  top: 25%;
+}
+
+.circle {
+  float: left;
+  width: 50%;
+}
+
+.banner-copy {
+  float: right;
+  width: 50%:
+}
+
+.title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.btn {
+
+}
+
+.btn-big {
+
+}
